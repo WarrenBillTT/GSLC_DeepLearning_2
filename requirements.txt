@@ -1,0 +1,9 @@
+torch>=2.2
+torchvision>=0.17
+numpy
+matplotlib
+scipy
+scikit-image
+torchmetrics[image]
+torch-fidelity
+tqdm

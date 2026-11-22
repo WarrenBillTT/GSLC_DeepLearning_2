@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+*.zip
+# model checkpoints are large; metrics (*.json) and figures ARE committed
+results/ckpt/
+.DS_Store
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
