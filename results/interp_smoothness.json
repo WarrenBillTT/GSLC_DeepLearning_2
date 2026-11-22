@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "Trouser",
+    "Bag"
+  ],
+  "n_alpha": 21,
+  "stats": {
+    "Vanilla AE": {
+      "mean_step": 0.788792073726654,
+      "max_over_mean_step": 1.2637218236923218,
+      "cv_step": 0.1556955873966217,
+      "note": "endpoints = encoded test images"
+    },
+    "Sparse AE": {
+      "mean_step": 0.8066715598106384,
+      "max_over_mean_step": 1.3243424892425537,
+      "cv_step": 0.22918732464313507,
+      "note": "endpoints = encoded test images"
+    },
+    "VAE": {
+      "mean_step": 0.9148440361022949,
+      "max_over_mean_step": 1.619696021080017,
+      "cv_step": 0.20026783645153046,
+      "note": "endpoints = encoded test images"
+    },
+    "Vanilla GAN": {
+      "mean_step": 1.8728536367416382,
+      "max_over_mean_step": 2.707240581512451,
+      "cv_step": 0.6701975464820862,
+      "note": "endpoints chosen so the MLP classifier labels them as the two classes"
+    },
+    "DCGAN": {
+      "mean_step": 2.1267635822296143,
+      "max_over_mean_step": 1.7175134420394897,
+      "cv_step": 0.40099814534187317,
+      "note": "endpoints chosen so the MLP classifier labels them as the two classes"
+    }
+  }
+}
